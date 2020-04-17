@@ -1,4 +1,4 @@
-# COVID19 PEE Forecasting Calculator - Azure Serverless Architecture
+# COVID19 PEE Forecasting Calculator | Azure Serverless Architecture
 
 
 This project was born from [Rush Medical Center COVID19 Calculator](https://webalyticos.home.blog/2020/03/24/covd19forecast/) development of the same project using a Junyper Notebook & hosting it on a virtual machine using Voila.
