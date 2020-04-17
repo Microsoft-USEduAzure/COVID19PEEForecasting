@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_CovId19PEEForecasting_name": {
+            "value": null
+        },
+        "serverfarms_COVID19ServiceAppPlan_name": {
+            "value": null
+        },
+        "components_CovId19PEEForecasting_name": {
+            "value": null
+        }
+    }
+}
