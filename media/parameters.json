@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workspaces_COVID19Forecasting_value": {
+            "value": null
+        },
+        "workspaces_COVID19Forecasting_value_1": {
+            "value": null
+        },
+        "workspaces_COVID19Forecasting_value_2": {
+            "value": null
+        },
+        "workspaces_COVID19Forecasting_value_3": {
+            "value": null
+        },
+        "workspaces_COVID19Forecasting_value_4": {
+            "value": null
+        },
+        "workspaces_COVID19Forecasting_value_5": {
+            "value": null
+        },
+        "servers_covidsql19_name": {
+            "value": null
+        },
+        "sites_COVID19Forecasting_name": {
+            "value": null
+        },
+        "components_COVID19Forecasting_name": {
+            "value": null
+        },
+        "workspaces_COVID19Forecasting_name": {
+            "value": null
+        },
+        "storageAccounts_sqlvadid7d7nwshmb6_name": {
+            "value": null
+        },
+        "serverfarms_ASP_COVID19Calculator_9f4f_name": {
+            "value": null
+        },
+        "storageAccounts_storageaccountcovid8276_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___covid19forecast_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___covid19forecasting_name": {
+            "value": null
+        },
+        "components_covid19forecast_externalid": {
+            "value": null
+        },
+        "actiongroups_application_insights_smart_detection_externalid": {
+            "value": null
+        }
+    }
+}
