@@ -16,15 +16,19 @@
 
 1. Click the **Create** button.
 
+1. Select single database option
+
+    ![New](media/1a.png)
+
 1. Enter the following paramenters:
-    <br> - **Name**: EDUMDWDataWarehouse
+    <br> - **Name**: COVID19ForeCasts
     <br> - **Subscription**: *Select your subscription*
-    <br> - **Resource Group**: EDUMDW-Lab
+    <br> - **Resource Group**: COVID19Backend
     <br> - **Select source**: *Select Blank database*
     <br> - **Server**:  *Create a new server*
-    <br> - **Server Name**: edumdwsqlserver+YOURINITIALS
-    <br> - **Server admin login**: EduMdwAdmin
-    <br> - **Password**: P@$$word123
+    <br> - **Server Name**: covid19+*suffix*
+    <br> - **Server admin login**: mainuser
+    <br> - **Password**: #covid2019#
     <br> - **Allow Azure services to access service**: Check the box       
 
 ![New](media/provision/2.png)
