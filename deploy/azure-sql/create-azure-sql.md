@@ -34,13 +34,12 @@
 
 ![New](media/2.png)
 
-1. Click the **Configure Database** link
-
-Select the following configuration:
-* Serverless
-* Max VCores: 16
-* Min VCores: 5
-* Pause after: 5 hours
+1. Click the **Configure Database** and select the following configuration:
+    
+    * Serverless
+    * Max VCores: 16
+    * Min VCores: 5
+    * Pause after: 5 hours
     
     ![New](media/4.png)
     
