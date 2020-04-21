@@ -31,7 +31,7 @@
     <br> - **Password**: #covid2019#
     <br> - **Allow Azure services to access service**: Check the box       
 
-![New](media/provision/2.png)
+![New](media/2.png)
 
 1. Click the **Create** button at the bottom of the SQL Data Warehouse blade.
     
