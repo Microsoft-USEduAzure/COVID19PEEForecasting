@@ -13,4 +13,4 @@ We will create a Resource Group called **EDUMDW-Lab** - please select the neares
     az group create -n EDUMDW-Lab -l <ENTER_LOCATION_NAME>
     ```
 
-## Next task: [Create Azure Blob Storage](../azure-storage/provision-azure-storage-account.md)
+## Next task: [Create SQL Server Database](../azure-sql/provision-azure-sql.md)
