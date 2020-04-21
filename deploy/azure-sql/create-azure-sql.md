@@ -12,7 +12,7 @@
 
 1. In the Azure Marketplace search bar, type **azure SQL** and click on **Azure SQL)** that appears in the drop down list
 
-    ![New](media/provision/1.png)
+    ![New](media/1.png)
 
 1. Click the **Create** button.
 
