@@ -29,7 +29,8 @@
     <br> - **Server Name**: covid19+*suffix*
     <br> - **Server admin login**: mainuser
     <br> - **Password**: #covid2019#
-    <br> - **Allow Azure services to access service**: Check the box       
+   
+   > NOTE: Make sure the Location of your SQL Server is the same as the location of your resource group
 
 ![New](media/2.png)
 
