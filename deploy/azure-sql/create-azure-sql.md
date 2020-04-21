@@ -1,5 +1,5 @@
 
-# Provision Azure Synapse Analytics (formerly SQL DW)
+# Provision Serverless SQL Database
 
 ## Pre-requisite task: [Create Azure Resource Group](../azure-resource-group/create-resource-group.md)
 
