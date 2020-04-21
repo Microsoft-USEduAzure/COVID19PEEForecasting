@@ -30,7 +30,7 @@
     <br> - **Server admin login**: mainuser
     <br> - **Password**: #covid2019#
    
-   > NOTE: Make sure the Location of your SQL Server is the same as the location of your resource group
+   > **NOTE: Make sure the Location of your SQL Server is the same as the location of your resource group**
 
 ![New](media/2.png)
 
