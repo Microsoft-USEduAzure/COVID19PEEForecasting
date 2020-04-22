@@ -3,11 +3,8 @@
 
 ## Pre-requisite task: [Create Azure Resource Group](../azure-resource-group/create-resource-group.md)
 
-## Task: Azure SQL Database
-
-### This database will hold COVID18 Forecast recprds
-
 ## Task: Provision Azure Serverless Database & SQL Server
+### This database will hold COVID18 Forecast records
 1. In the [Azure Portal](https://portal.azure.com), click **+Create a resource** link at top left of the page.
 
 1. In the Azure Marketplace search bar, type **azure SQL** and click on **Azure SQL)** that appears in the drop down list
@@ -62,39 +59,95 @@
 1.	On the new query window, create a new database schema named [NYC]. Use this SQL Command:
 
 ```sql
-create schema [NYC]
-go
-```
-```sql
-create schema [Staging]
-go
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[CovId19](
+	[fdates] [date] NOT NULL,
+	[forecast_vals] [float] NOT NULL,
+	[CountryRegion] [varchar](100) NOT NULL,
+	[ProvinceState] [varchar](100) NOT NULL,
+	[model] [varchar](20) NOT NULL,
+	[obs_pred_r2_G] [float] NULL,
+	[newcases] [int] NULL,
+ CONSTRAINT [PK_CovId19] PRIMARY KEY CLUSTERED 
+(
+	[fdates] ASC,
+	[forecast_vals] ASC,
+	[CountryRegion] ASC,
+	[ProvinceState] ASC,
+	[model] ASC
+)WITH (STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
 
-create table [Staging].[NYCTaxiData]
-(
-    [VendorID] [int] NULL,
-    [tpep_pickup_datetime] [datetime] NULL,
-    [tpep_dropoff_datetime] [datetime] NULL,
-    [passenger_count] [smallint] NULL,
-    [trip_distance] [decimal](8, 2) NULL,
-    [RatecodeID] [smallint] NULL,
-    [store_and_fwd_flag] [char](1) NULL,
-    [PULocationID] [int] NULL,
-    [DOLocationID] [int] NULL,
-    [payment_type] [smallint] NULL,
-    [fare_amount] [decimal](10, 2) NULL,
-    [extra] [decimal](10, 2) NULL,
-    [mta_tax] [decimal](10, 2) NULL,
-    [tip_amount] [decimal](10, 2) NULL,
-    [tolls_amount] [decimal](10, 2) NULL,
-    [improvement_surcharge] [decimal](10, 2) NULL,
-    [total_amount] [decimal](10, 2) NULL
-)
-with
-(
-    distribution = round_robin,
-    heap
-)
-go
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[CovId19Staging](
+	[fdates] [nvarchar](max) NULL,
+	[forecast_vals] [float] NULL,
+	[CountryRegion] [nvarchar](max) NULL,
+	[ProvinceState] [nvarchar](max) NULL,
+	[model] [nvarchar](max) NULL,
+	[obs_pred_r2_G] [float] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[DeleteStagingTable]
+
+AS
+BEGIN
+IF OBJECT_ID('dbo.CovId19Staging', 'U') IS NOT NULL 
+  DROP TABLE dbo.CovId19Staging; 
+   
+END
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[ProcessNewRecords]
+
+AS
+BEGIN
+    truncate table [dbo].[CovId19]
+
+
+INSERT INTO [dbo].[CovId19]
+           ([fdates]
+           ,[forecast_vals]
+           ,[CountryRegion]
+           ,[ProvinceState]
+           ,[model]
+           ,[obs_pred_r2_G])
+    select [fdates]
+           ,[forecast_vals]
+           ,[CountryRegion]
+           ,[ProvinceState]
+           ,[model]
+           ,[obs_pred_r2_G] from [dbo].[CovId19Staging]
+
+
+Update CovID19 
+set newcases =  forecast_vals - isnull((Select forecast_vals from CovId19 c where CovId19.ProvinceState = c.[ProvinceState] and CovId19.CountryRegion = c.countryregion and c.fdates = DATEADD(DAY, -1, CovId19.fdates) and CovId19.model = c.model),0) 
+
+
+Declare @deleteDate  date
+select @deleteDate = min(fdates) from covid19 
+select @deleteDate
+
+delete from CovID19 where fdates = @deleteDate
+
+END
+GO
 
 ```
 
