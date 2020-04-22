@@ -23,4 +23,4 @@ Click **Create Cluster**
 
     ![Cluster creation](media/cluster/3.png)
 
-## Next task: [Create workspace](create-workspace.md)
+## Next task: [Import Notebook](import-notebook.md)
