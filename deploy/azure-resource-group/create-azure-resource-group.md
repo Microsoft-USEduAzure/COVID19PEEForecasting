@@ -17,8 +17,7 @@ Note: please select the same nearest data center for both groups
 
     ```
     az group create -n COVID19BackEnd -l <ENTER_LOCATION_NAME>
-    az group create -n COVID19FrontEnd -l <ENTER_LOCATION_NAME>
-    
+    az group create -n COVID19FrontEnd -l <ENTER_LOCATION_NAME>    
     ```
     
 
