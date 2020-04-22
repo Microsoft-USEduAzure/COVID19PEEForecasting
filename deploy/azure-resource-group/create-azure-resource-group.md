@@ -21,4 +21,4 @@ Note: please select the same nearest data center for both groups
     ```
     
 
-## Next task: [Create SQL Server Database](../azure-sql/provision-azure-sql.md)
+## Next task: [Create SQL Server Database](../azure-sql/create-azure-sql.md)  
