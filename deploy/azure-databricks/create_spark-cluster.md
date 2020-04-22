@@ -9,7 +9,13 @@
 
     ![New cluster](media/cluster/1.png)
     
-1. Enter a cluster name, uncheck **Enable autoscaling**, ensure **Terminate after** is checked and reduce the number of workers to **2**. You can default the rest of the settings. Click **Create Cluster**.
+1. Enter a cluster name, uncheck **Enable autoscaling**,  ensure **Terminate after** is checked. Set the following configurations:
+
+* Worker Type: Standard_DS5_V2
+* Mininum of workers: **2**. 
+* Maximum of workers:  **5**
+
+Click **Create Cluster**.
 
     ![Cluster settings](media/cluster/2.png)
 
