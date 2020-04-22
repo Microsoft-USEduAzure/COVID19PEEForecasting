@@ -45,9 +45,9 @@
     
 1. Check the **Notifications** icon in the upper right and wait until you see **Deployment succeeded** then click the **Go to resource** button.
 
-    ![Notifications](media/provision/3.png)
+    ![Notifications](media/5.png)
 
-## Task: Configure Server Credentials & Create Create Data Warehouse Tables & Stored Procedures
+## Task: Configure Server Credentials & Create Database Tables & Stored Procedures
 
 1. Navigate to the **Query editor** blade and login using your server credentials
 
