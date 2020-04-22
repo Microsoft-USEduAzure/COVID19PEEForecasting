@@ -31,4 +31,4 @@
     ![Launch workspace](media/provision/4.png)
 
 
-## Next task: [Create Spark cluster](create-spark-cluster.md)
+## Next task: [Create Spark cluster](create_spark-cluster.md)
