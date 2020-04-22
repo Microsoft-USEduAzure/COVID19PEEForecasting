@@ -1,7 +1,7 @@
 
 # Provision Serverless SQL Database
 
-## Pre-requisite task: [Create Azure Resource Group](../azure-resource-group/create-resource-group.md)
+## Pre-requisite task: [Create Azure Resource Group](../azure-resource-group/create-azure-resource-group.md)
 
 ## Task: Provision Azure Serverless Database & SQL Server
 ### This database will hold COVID18 Forecast records
