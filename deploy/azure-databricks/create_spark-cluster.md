@@ -17,7 +17,7 @@
 
 Click **Create Cluster**
 
-    ![Cluster settings](media/cluster/2.png)
+![Cluster settings](media/cluster/2.png)
 
 1. Wait for the cluster to be created.
 
