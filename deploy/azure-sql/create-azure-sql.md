@@ -156,4 +156,4 @@ GO
 
 ```
 
-## Next task: [Create Azure Data Factory V2](../azure-data-factory-v2/provision-azure-data-factory-v2.md)
+## Next task: [Create Azure Databricks](../azure-databricks/create-azure-databricks.md)
