@@ -15,7 +15,7 @@
 * Mininum of workers: **2**. 
 * Maximum of workers:  **5**
 
-Click **Create Cluster**.
+Click **Create Cluster**
 
     ![Cluster settings](media/cluster/2.png)
 
