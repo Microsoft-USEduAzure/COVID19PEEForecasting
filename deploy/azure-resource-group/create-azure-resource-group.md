@@ -2,12 +2,12 @@
 
 ## Task: Create resource group using Azure CLI
 
-We will create 2 Resource Groups called 
+We will the following resource groups:
 
-     * **COVID19BackEnd**
-     * **COVID19FrontEnd**
+     * COVID19BackEnd
+     * COVID19FrontEnd
      
-     - please select the nearest data center
+     >Note: please select the same nearest data center for both groups
 
 
 1. In Azure Portal, open Cloud Shell
