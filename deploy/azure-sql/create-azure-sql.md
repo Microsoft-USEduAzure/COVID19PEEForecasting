@@ -44,11 +44,19 @@
 
     ![Notifications](media/5.png)
 
-## Task: Configure Server Credentials & Create Database Tables & Stored Procedures
+## Task: Configure Server Firewall, Create Database Tables & Stored Procedures
 
-1. Navigate to the **Query editor** blade and login using your server credentials
+1. Navigate to the **Query editor** blade and login using your server credentials, you will get an error message, select the IP Address on the error message and copy it, then click on the link **set server firewall**
 
-    ![Login](media/provision/4.png)
+    ![Login](media/6.png)
+
+1. At the firewall configuration settings follow these steps:
+	1. Allow Azure services and resources to access this server to Yes
+	1. Click in Add Client IP button to allow your PC to access the database
+	1. Click the save button
+	1. Click the Query Editor breadcrumb at the top of the screen to go back to the Query Editor
+	
+    ![firewall](media/7.png)
 
 1. In the query editor, enter the following command and click the **Run** button
 
