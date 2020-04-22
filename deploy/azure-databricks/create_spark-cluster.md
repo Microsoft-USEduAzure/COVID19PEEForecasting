@@ -1,7 +1,7 @@
 
 # Create Spark Cluster
 
-## Pre-requisite task: [Create Azure Databricks](azure-databricks/provision-azure-databricks.md)
+## Pre-requisite task: [Create Azure Databricks](create-azure-databricks.md)
 
 ## Task: Create new Spark cluster
 
