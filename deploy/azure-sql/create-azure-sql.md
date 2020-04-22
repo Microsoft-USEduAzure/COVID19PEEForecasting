@@ -61,7 +61,7 @@
 1. Back at the Query Editor, click on the OK button
     ![firewall](media/8.png)      
 
-1.	On the new query window, create required tables and stored procedures. Use this SQL Command:
+1.	On the new query window, create required tables and stored procedures. Copy and paste the SQL Script below and then click run.
 
 ```sql
 SET ANSI_NULLS ON
