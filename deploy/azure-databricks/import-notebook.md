@@ -1,9 +1,8 @@
 # Import Notebook
 
-## Pre-requisite task: [Create Azure Databricks](azure-databricks/provision-azure-databricks.md)
+## Pre-requisite task: [Create Azure Databricks](create-azure-databricks.md)
 
-## Task: Create new Azure Databricks workspace
-
+## Task: Import Databricks Notebooks
 1. In the Databricks navigation pane (on the left), click on the **Workspace** button
 
     ![Create workspace](media/workspace/1.png)
