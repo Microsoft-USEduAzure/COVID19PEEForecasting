@@ -2,7 +2,7 @@
 
 ## Provision Resources
 
-### [Task 1: Create Azure Resource Group](deploy/azure-resource-group/create-azure-resource-group.md)
+### [Task 1: Create Azure Resource Group](azure-resource-group/create-azure-resource-group.md)
 
 ### [Task 2: Create Azure SQL Database](azure-ad-service-principal/create-service-principal.md)
 
