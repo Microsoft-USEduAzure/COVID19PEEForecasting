@@ -15,7 +15,7 @@
 IMPORTANT: You need to create 2 resource groups for this project:
 
 * COVID19Forecast - all backend resourses will be deployed to this resource group.
-* COVID19FrontEnt - ASP .Net Front end will be deployed to this resource group.
+* COVID19FrontEnd - ASP .Net Front end will be deployed to this resource group.
 
 1.- Open the browser and navigate to https://portal.azure.com
 
