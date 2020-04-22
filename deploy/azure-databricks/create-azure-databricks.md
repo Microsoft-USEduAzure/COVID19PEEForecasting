@@ -18,6 +18,7 @@
     <br>- **Subscription**: *Select your subscription*
     <br>- **Resource Group**: COVID19Backend
     <br>- **Location**: *Select your location*
+    <br>- **Pricing Tier**: Premium
 
  ![New](media/2.png)
         
@@ -28,7 +29,7 @@
 
 1. Click on the **Launch Workspace** button to navigate to the Azure Databricks workspace. This is where ETL/ELT will take place.
 
-    ![Launch workspace](media/provision/4.png)
+    ![Launch workspace](media/4.png)
 
 
 ## Next task: [Create Spark cluster](create_spark-cluster.md)
