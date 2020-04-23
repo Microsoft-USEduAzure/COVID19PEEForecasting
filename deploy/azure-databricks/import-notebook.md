@@ -5,14 +5,18 @@
 ## Task: Import Databricks Notebooks
 1. In the Databricks navigation pane (on the left), click on the **Workspace** button
 
-    ![Create workspace](media/workspace/1.png)
+    ![Create workspace](media/notebook/1.png)
 
-1. In the Workspace pane, click the *down* arrow to expand the menu, then navigate to **Create** and **Notebook**
+1. In the Workspace pane, click the *down* arrow to expand the menu, then navigate to *Shared*, clinck the *down* arrow and select **Import** 
 
-    ![Create notebook](media/workspace/2.png)
+    ![Create notebook](media/notebook/2.png)
 
-1. Enter notebook name and click **Create**
+1. Select the URL option and copy and paste the URL below:
 
-    ![Notebook settings](media/workspace/3.png)
+'https://github.com/Microsoft-USEduAzure/COVID19PEEForecasting/blob/master/deploy/azure-databricks/media/notebook/CovID19Forecasting.dbc'
 
-## Next task: [Develop Azure Databricks notebook](develop-databricks-notebook.md)
+Click import, once the import is completed, you should see the following notebooks on your workspace
+
+![Notebook settings](media/notebook/3.png)
+
+## Next task: [Configure notebook](configure-databricks-notebook.md)
