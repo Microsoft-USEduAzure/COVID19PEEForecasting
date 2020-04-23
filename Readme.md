@@ -60,7 +60,7 @@ This is a front end application for end users. This is a C# - ASP .NET applicati
 
 ### Azure Functions
 
-This is a phython based function that runs statisticals calculations to calculate PPE forcasting for the selected state based on the selected parameters
+This is a python-based function that runs statisticals calculations to calculate PPE forcasting for the selected state based on the selected parameters
 
 ![](media/functions.png)
 
