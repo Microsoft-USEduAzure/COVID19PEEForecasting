@@ -8,7 +8,7 @@ Rush's Medical Center calculates forecasting based on 3 models:
 * Logistics
 * Polynomial
 
-### [Deploy to Azure](deploy/deploy.md)
+[//]: # ### [Deploy to Azure](deploy/deploy.md)
 
 ## Architecture
 
