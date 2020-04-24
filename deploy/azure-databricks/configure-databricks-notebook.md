@@ -45,4 +45,4 @@
 
 ![Notebook settings](media/configure/7.png)
 
-## Next task: [Develop Azure Databricks notebook](develop-databricks-notebook.md)
+## Next task: [Provision Azure Data Factory ](../azure-data-factory-v2/provision-azure-data-factory-v2.md)
