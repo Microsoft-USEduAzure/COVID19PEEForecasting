@@ -151,4 +151,4 @@ Click the **Ok** button
 
     ![Create Trigger](media/Pipeline/35.png)
 
-## Next task: [Create Azure Databricks](../azure-databricks/provision-azure-databricks.md)
+## Next task: [Provision Azure Function](../azure-function/create-azure-function.md)
