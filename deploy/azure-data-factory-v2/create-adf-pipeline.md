@@ -61,8 +61,10 @@ In this section you create a data factory pipeline to copy data in the following
     * Execute a stored procedure in the SQL database to copy records to the COVID19 table and calculate new daily cases.
 
 1. On the New Pipeline tab, enter the following details:
+
     <br>- **General > Name**: Process Daily Data
-1.	Leave remaining fields with default values.
+    
+1. Leave remaining fields with default values.
 
     ![Create new pipeline](media/Pipeline/7.png)
     ![Create new pipeline](media/Pipeline/8.png)
