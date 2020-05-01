@@ -147,4 +147,4 @@ In this section will deploy the code to Azure. Since this a <a link ="https://do
 
  ![vs code deploy](media/deploy/29.png)
 
-## Next task: [Deploy Website](deploy-function-app.md)
+## Next task: [Deploy Website](../frontend/create-function-app.md)
