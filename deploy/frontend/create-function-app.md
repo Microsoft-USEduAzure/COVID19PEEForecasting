@@ -27,10 +27,10 @@ In this section will provision a Windows Based Web App - This is the front end o
 
 1. Once the deployment is completed click on **Go to resource**
 
-    ![](media/3.png)
-    
+    ![website](media/3.png)
+
     You should be able to see your new Web App
 
     ![Create new pipeline](media/4.png)
 
-## Next task: [Deploy Function to App](deploy-Website.md)
+## Next task: [Deploy Website](deploy-website.md)
