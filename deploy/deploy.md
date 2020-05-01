@@ -39,16 +39,5 @@ IMPORTANT: The name of the resource group chosen is not relevant to the successf
 
 ![](media/addresourcegroup.png)
 
-In the Region drop down list, select one of the regions from the list below.
+In the Region drop down list, select one of the regions from the listed, preferavly the closest to your location.
 
-IMPORTANT: The ARM template you will use to deploy the lab components uses the Resource Group region as the default region for all services.
-
-Deploy Backend:
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/Microsoft-USEduAzure/COVID19PEEForecasting/master/deploy/media/template.json)
-
-7. - Repeat steps 4 and 5 to create the COVID19FrontEnd resource group.
-
-Deploy Front End:
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/Microsoft-USEduAzure/COVID19PEEForecasting/master/deploy/frontend/template.json)
