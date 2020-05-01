@@ -15,7 +15,7 @@ Rush's Medical Center calculates forecasting based on 3 models:
 * Expected user experience was clunky
 
 
-<!-- ### [Deploy to Azure](deploy/deploy.md) -->
+### [Deploy to Azure](deploy/deploy.md) 
 
 ## Architecture
 
@@ -80,3 +80,5 @@ This workspace contains two python-based notebooks:
    * Exponential
    * Logistic
    * Polynomial
+   
+ For more information on calculation methodology, please check the documentation provided by <a href="https://webalyticos.home.blog/2020/03/24/covd19forecast/" target="_blank"> Rush's Medical Center </a> 
