@@ -4,11 +4,11 @@
 
 ## Task: Deploy code Azure Function.
 
-In this section will deploy the code to Azure. Since this a <a link ="https://docs.microsoft.com/en-us/azure/azure-functions/functions-premium-plan" target="blank">Premium Based</a> Service app, therefore to publish to Azure, this is a two step process: Deploy code to Azure using Visual Studio Code then run scripts to deploy libraries with Azure DevOps
+In this section will deploy the code to Azure. Since this a <a href ="https://docs.microsoft.com/en-us/azure/azure-functions/functions-premium-plan" target="blank">Premium Based</a> Service app, therefore to publish to Azure, this is a two step process: Deploy code to Azure using Visual Studio Code then run scripts to deploy libraries with Azure DevOps
 
 ### Task: Deploy code using Visual Studio Code
 
-1. In your computer, open Visual Studio Code, if you don't have it installed in your computer, click <a link="https://code.visualstudio.com/download" target="blank"> here </a> to download it.
+1. In your computer, open Visual Studio Code, if you don't have it installed in your computer, click <a href="https://code.visualstudio.com/download" target="blank"> here </a> to download it.
 
 1. Navigate to **File** --> **New Window**
 
@@ -64,7 +64,7 @@ In this section will deploy the code to Azure. Since this a <a link ="https://do
 
 ### Task: Deploy libraries using Azure DevOps
 
-1. Navigate back to  <a link="https://dev.azure.com/">Azure DevOps Portal</a> and click on the **Sign in to Azure DevOps** and enter your credentials.
+1. Navigate back to  <a href="https://dev.azure.com/">Azure DevOps Portal</a> and click on the **Sign in to Azure DevOps** and enter your credentials.
 
     Click on the **Get function URL** link, copy the URL and paste it to NotePad
     

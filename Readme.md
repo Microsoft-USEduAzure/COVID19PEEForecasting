@@ -14,12 +14,11 @@ Rush's Medical Center calculates forecasting based on 3 models:
 * Junyper Notebooks are great to develop and test models but not to release them to production, every time a request was made to the application, the entire notebook is executed
 * Expected user experience was clunky
 
-
-### [Deploy to Azure](deploy/deploy.md) 
+### [Deploy to Azure](deploy/deploy.md)
 
 ## Architecture
 
-![](media/architecture.png)
+![Architecture](media/architecture.png)
 
 ## Advantages of Serverless Architecture
 
@@ -42,7 +41,7 @@ Rush's Medical Center calculates forecasting based on 3 models:
 * Scalable
 * Integrated with Application Insights
 
-![](media/frontend.png)
+![Architecture](media/frontend.png)
 
 ### Azure Functions
 
@@ -51,7 +50,7 @@ Rush's Medical Center calculates forecasting based on 3 models:
 * Scalable
 * Integrated with Application Insights
 
-![](media/functions.png)
+![Architecture](media/functions.png)
 
 ### Azure Data Factory
 
@@ -59,7 +58,7 @@ Rush's Medical Center calculates forecasting based on 3 models:
 * The pipeline clears the staging table that holds data to be processed, calls an Azure Databricks that reads data from John Hopkins, parses daily information per estate and then generates the forecasting calculations, saves them to SQL server, then a stored procedure is called to calculate new cases and save the fresh data into the COVID19Forecast Table.
 * Triggers scheduled to run every day at 5:00 am run the pipeline automatically
 
-![](media/pipeline.png)
+![Architecture](media/pipeline.png)
 
 ### Azure SQL Single Database - Serverless pricing schema
 
@@ -68,7 +67,7 @@ Rush's Medical Center calculates forecasting based on 3 models:
 * There are 2 stored procedures: DeleteStagingTable (self explanatory) and ProcessNewRecords, this stored procedure truncates the COVID19 table, inserts the new records and calculates new cases.
 * Separation between the two tables is due to indexing on COVID19 for faster searches.
 
-![](media/databaseschema.png)
+![Architecture](media/databaseschema.png)
 
 ### Azure Databricks
 
@@ -81,4 +80,4 @@ This workspace contains two python-based notebooks:
    * Logistic
    * Polynomial
    
- For more information on calculation methodology, please check the documentation provided by <a href="https://webalyticos.home.blog/2020/03/24/covd19forecast/" target="_blank"> Rush's Medical Center </a> 
+ For more information on calculation methodology, please check the documentation provided by <a href="https://webalyticos.home.blog/2020/03/24/covd19forecast/" target="_blank"> Rush's Medical Center </a>
