@@ -1,6 +1,6 @@
-# Provision Azure Function
+# Deploy Website
 
-## Pre-requisite task: [Create  App](create-azure-function.md)
+## Pre-requisite task: [Create  App](create-function-app.md)
 
 ## Task: Deploy Front End Website
 
@@ -8,7 +8,7 @@ In this section will deploy front end website
 
 ### Task: Deploy libraries using Azure DevOps
 
-1. Navigate back to  <a link="https://dev.azure.com/">Azure DevOps Portal</a> and click on the **Sign in to Azure DevOps** and enter your credentials.
+1. Navigate back to  <a href="https://dev.azure.com/">Azure DevOps Portal</a> and click on the **Sign in to Azure DevOps** and enter your credentials.
 
 1. Create a new project
     
