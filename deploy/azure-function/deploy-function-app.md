@@ -64,7 +64,7 @@ In this section will deploy the code to Azure. Since this a <a href ="https://do
 
 ### Task: Deploy libraries using Azure DevOps
 
-1. Navigate back to  <a href="https://dev.azure.com/">Azure DevOps Portal</a> and click on the **Sign in to Azure DevOps** and enter your credentials.
+1. Navigate back to  <a href="https://dev.azure.com/" target="blank">Azure DevOps Portal</a> and click on the **Sign in to Azure DevOps** and enter your credentials.
 
     Click on the **Get function URL** link, copy the URL and paste it to NotePad
     
