@@ -4,7 +4,7 @@
 ## Pre-requisite task: [Create Azure Resource Group](../azure-resource-group/create-azure-resource-group.md)
 
 ## Task: Provision Azure Serverless Database & SQL Server
-### This database will hold COVID18 Forecast records
+### This database will hold COVID19 Forecast records
 1. In the [Azure Portal](https://portal.azure.com), click **+Create a resource** link at top left of the page.
 
 1. In the Azure Marketplace search bar, type **azure SQL** and click on **Azure SQL)** that appears in the drop down list
