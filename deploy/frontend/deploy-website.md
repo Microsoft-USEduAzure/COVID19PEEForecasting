@@ -11,7 +11,7 @@ In this section will deploy front end website
 1. Navigate back to  <a href="https://dev.azure.com/">Azure DevOps Portal</a> and click on the **Sign in to Azure DevOps** and enter your credentials.
 
 1. Create a new project
-    
+
     ![Website deploy](media/deploy/13.png)
 
 1. Enter the following information:
