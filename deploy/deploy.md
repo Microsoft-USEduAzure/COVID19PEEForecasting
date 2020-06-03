@@ -12,6 +12,8 @@
 
 ### [Task 5: Provision Azure Function](azure-function/create-azure-function.md)
 
+### [Task 6: Provision Front End](frontend/create-function-app.md)
+
 
 ## Prepare your Azure Subcription
 
