@@ -10,6 +10,9 @@
 
 ### [Task 4: Create Azure Data Factory V2](azure-data-factory-v2/provision-azure-data-factory-v2.md)
 
+### [Task 5: Provision Azure Function](azure-function/create-azure-function.md)
+
+
 ## Prepare your Azure Subcription
 
 IMPORTANT: You need to create 2 resource groups for this project:
