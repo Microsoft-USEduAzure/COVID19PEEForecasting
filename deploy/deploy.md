@@ -6,7 +6,7 @@
 
 ### [Task 2: Create Azure SQL Database](azure-sql/create-azure-sql.md)
 
-### [Task 3: Create Azure Databricks](azure-sql-datawarehouse/provision-azure-sql-data-warehouse.md)
+### [Task 3: Create Azure Databricks](azure-databricks/create-azure-databricks.md)
 
 ### [Task 4: Create Azure Data Factory V2](azure-data-factory-v2/provision-azure-data-factory-v2.md)
 
