@@ -1,4 +1,4 @@
-# Provision Azure Function
+# Deploy Azure Function
 
 ## Pre-requisite task: [Create Azure Function App](create-azure-function.md)
 
